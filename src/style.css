@@ -1,3 +1,11 @@
+h1 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #8f8787;
+  margin-bottom: 0;
+  line-height: 20px;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -16,11 +24,6 @@ li {
   padding: 20px;
   border: 1px solid gray;
   border-radius: 15px;
-}
-
-.main-city {
-  font-size: 25px;
-  font-weight: bold;
 }
 
 .main-temp {
