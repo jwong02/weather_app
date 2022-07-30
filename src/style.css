@@ -38,6 +38,23 @@ li {
   font-size: 14px;
 }
 
-.current-high-low {
+.current-high-low,
+.current-condition {
   font-weight: bold;
+}
+
+.high-low-section {
+  position: relative;
+  top: 27px;
+}
+
+.main-weather-icon {
+  margin: 0 -15px;
+  position: relative;
+  top: 18px;
+}
+
+.current-condition {
+  position: relative;
+  top: 10px;
 }
