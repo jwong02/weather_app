@@ -17,31 +17,38 @@
   <body>
     <div class="container">
       <div class="weather-app-wrapper">
-        <div class="row">
-          <div class="col-6"><span class="main-city">New York</span></div>
-        </div>
-        <div class="row">
-          <div class="col-4">
-            <ul>
-              <li>Thursday</li>
-              <li>85°F|°C</li>
-            </ul>
+        <div class="weather-app">
+          <div class="row">
+            <div class="col-6"><span class="main-city">New York</span></div>
           </div>
-          <div class="col-4">
-            <ul>
-              <li>High: 90°F</li>
-              <li>Low: 80°F</li>
-            </ul>
-          </div>
-          <div class="col-4">
-            <ul>
-              <li>
-                <img
-                  src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-                />
-              </li>
-              <li>Sunny</li>
-            </ul>
+          <div class="row">
+            <div class="col-4">
+              <ul>
+                <li>Thursday 05:00</li>
+                <li>
+                  <span class="main-temp">85</span>
+                  <span class="units"
+                    >°F | <a href="#" id="celsius">°C</a></span
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-4">
+              <ul>
+                <li><span class="current-high-low">High:</span> 90°F</li>
+                <li><span class="current-high-low">Low:</span> 80°F</li>
+              </ul>
+            </div>
+            <div class="col-4">
+              <ul>
+                <li>
+                  <img
+                    src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+                  />
+                </li>
+                <li>Sunny</li>
+              </ul>
+            </div>
           </div>
         </div>
         <small>
