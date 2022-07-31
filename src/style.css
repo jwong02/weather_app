@@ -52,10 +52,10 @@ li {
 .main-weather-icon {
   margin: 0 -15px;
   position: relative;
+  top: -12px;
 }
 
 .current-condition {
   position: relative;
-  top: -8px;
-  left: -10px;
+  top: -30px;
 }
