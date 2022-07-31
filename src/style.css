@@ -28,13 +28,13 @@ li {
 }
 
 .main-temp {
-  font-size: 35px;
+  font-size: 40px;
   font-weight: bold;
 }
 
 .units {
   position: relative;
-  top: -15px;
+  top: -18px;
   left: -2px;
   font-size: 14px;
 }
@@ -52,11 +52,10 @@ li {
 .main-weather-icon {
   margin: 0 -15px;
   position: relative;
-  top: 3px;
 }
 
 .current-condition {
   position: relative;
-  top: -5px;
+  top: -8px;
   left: -10px;
 }
