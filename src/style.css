@@ -1,3 +1,7 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 h1 {
   font-size: 25px;
   font-weight: bold;
@@ -88,4 +92,8 @@ li {
 
 .weather-icon {
   width: 35px;
+}
+
+.btn {
+  box-shadow: 4px 4px 5px rgba(143, 135, 135, 0.5);
 }
