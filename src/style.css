@@ -28,7 +28,7 @@ li {
 }
 
 .main-temp {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: bold;
   position: relative;
   top: 10px;
@@ -36,7 +36,7 @@ li {
 
 .units {
   position: relative;
-  top: -9px;
+  top: -16px;
   left: -2px;
   font-size: 14px;
 }
