@@ -22,7 +22,7 @@ li {
 }
 
 .weather-app {
-  padding: 20px;
+  padding: 30px 35px;
   border: 1px solid gray;
   border-radius: 15px;
 }
@@ -55,9 +55,34 @@ li {
   margin: 0 -15px;
   position: relative;
   top: -12px;
+  width: 90px;
 }
 
 .current-condition {
   position: relative;
   top: -30px;
+}
+
+.extended-forecast {
+  margin-top: -15px;
+}
+
+.weekdays {
+  font-weight: bold;
+}
+
+.dates,
+.max-temp {
+  font-size: 14px;
+}
+
+.min-temp {
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+.weather-icon {
+  width: 35px;
+  position: relative;
+  left: -5px;
 }
