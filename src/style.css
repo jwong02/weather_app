@@ -72,16 +72,18 @@ li {
 
 .weekdays {
   font-weight: bold;
+  color: #8f8787;
 }
 
-.dates,
 .max-temp {
   font-size: 14px;
+  font-weight: bold;
 }
 
 .min-temp {
   font-size: 12px;
   opacity: 0.5;
+  font-weight: bold;
 }
 
 .weather-icon {
