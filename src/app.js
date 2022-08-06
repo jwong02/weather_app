@@ -23,6 +23,36 @@ if (minutes < 10) {
 
 dateElement.innerHTML = `${day} ${hours}:${minutes}`;
 
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+
+  let forecastHTML = `<div class="row">`;
+  let days = ["Sat", "Sun", "Mon", "Tues", "Wed", "Thurs"];
+  days.forEach(function (day) {
+    forecastHTML =
+      forecastHTML +
+      `
+        <div class="col-2">
+        <ul>
+          <li class="weekdays">${day}</li>
+          <li class="dates">8/5</li>
+          <li>
+            <img
+              src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+              class="weather-icon"
+            />
+          </li>
+          <li class="max-temp">18°</li>
+          <li class="min-temp">15°</li>
+        </ul>
+          </div>`;
+  });
+  forecastHTML = forecastHTML + `</div>`;
+  forecastElement.innerHTML = forecastHTML;
+}
+
+displayForecast();
+
 function displayTemp(response) {
   let temperatureElement = document.querySelector("#temperature");
   let cityElement = document.querySelector("#city");
