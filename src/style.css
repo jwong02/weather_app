@@ -42,15 +42,15 @@ li {
 
 .units {
   position: relative;
-  top: -16px;
-  left: -2px;
-  font-size: 14px;
+  top: -13px;
+  left: -5px;
+  font-size: 20px;
 }
 
 .high-low-units {
   position: relative;
-  top: -3px;
-  font-size: 12px;
+  top: -2px;
+  font-size: 14px;
 }
 
 .current-high-low,
@@ -96,6 +96,12 @@ li {
   font-size: 12px;
   opacity: 0.5;
   font-weight: bold;
+}
+
+.max-unit,
+.min-unit {
+  position: relative;
+  top: -1px;
 }
 
 .weather-icon {

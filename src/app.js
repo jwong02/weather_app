@@ -21,7 +21,7 @@ if (minutes < 10) {
   minutes = `0${minutes}`;
 }
 
-dateElement.innerHTML = `${day} ${hours}:${minutes}`;
+dateElement.innerHTML = `${day} ${Math.round(hours / 12)}:${minutes}`;
 
 function formatDay(timestamp) {
   let date = new Date(timestamp * 1000);
@@ -54,8 +54,12 @@ function displayForecast(response) {
               class="weather-icon"
             />
           </li>
-          <li class="max-temp">${Math.round(forecastDay.temp.max)}°</li>
-          <li class="min-temp">${Math.round(forecastDay.temp.min)}°</li>
+          <li class="max-temp">${Math.round(
+            forecastDay.temp.max
+          )}<span class="max-unit">°</span></li>
+          <li class="min-temp">${Math.round(
+            forecastDay.temp.min
+          )}<span class="min-unit">°</span></li>
         </ul>
           </div>`;
     }
