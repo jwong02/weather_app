@@ -36,7 +36,6 @@ function displayForecast(response) {
   let forecastElement = document.querySelector("#forecast");
 
   let forecastHTML = `<div class="row">`;
-  console.log(response.data.daily);
 
   forecast.forEach(function (forecastDay, index) {
     if (index >= 1 && index < 7) {
